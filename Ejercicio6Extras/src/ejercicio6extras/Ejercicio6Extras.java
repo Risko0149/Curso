@@ -23,13 +23,17 @@ public class Ejercicio6Extras {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // Primera instancia donde se deben pasar los valores por teclado
         Rectangulo rectangulo = new Rectangulo();
+        
+        // Segunda instancia donde los valores se pasan como parámetros
         Rectangulo rectangulo1 = new Rectangulo(4,6);
 
         rectangulo.calcular_area();
 
+        // Tercera opción. Pasar los parámetros por medio de los Sets 
         //rectangulo1.setLado1(4);
-        //rectangulo1.setLado2(6);
+        //rectangulo1.setLado2(6);        
 
         System.out.println("El área del rectángulo1 es:" + (rectangulo1.getLado1()*rectangulo1.getLado2()));
     }
