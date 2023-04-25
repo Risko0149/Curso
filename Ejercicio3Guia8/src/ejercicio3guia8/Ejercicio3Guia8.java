@@ -83,5 +83,4 @@ public class Ejercicio3Guia8 {
         System.out.println("Hay " + cuantosBien+ " personas en buen estado físico");
         System.out.println("Hay " + cuantosGordos+ " personas gordas");
     }
-    
 }
