@@ -6,6 +6,7 @@
 package ejercicio2extrasguia8.Servicios;
 
 import ejercicio2extrasguia8.Entidades.NIF;
+import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -13,6 +14,16 @@ import java.util.Scanner;
  * @author Risko
  */
 public class NIFService {
+    
+    public void elmetodo(){
+        String cade = "1234";
+        Integer num = 12345;
+        int num2=0;
+
+        Date mifecha = new Date();
+
+    }
+    
     private Scanner leer = new Scanner(System.in);
 
     private NIF elNif = new NIF();
