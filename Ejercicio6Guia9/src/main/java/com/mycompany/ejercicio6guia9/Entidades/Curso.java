@@ -90,7 +90,7 @@ public class Curso {
     }
     
     
-    publi
+   
     /**Método crearCurso(): el método crear curso, le pide los valores de los atributos al usuario 
      * y después se le asignan a sus respectivos atributos para llenar el objeto Curso. 
      * En este método invocamos al método cargarAlumnos() 
