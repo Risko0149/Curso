@@ -17,10 +17,10 @@ public class Jugador {
     private EstadoJugador estado;
 
     public Boolean disparo(RevolverDeAgua r) {
-        Boolean q=false;
+        Boolean q = false;
         if (r.mojar()) {
             estado = EstadoJugador.mojado;
-            q=true;
+            q = true;
         }
         r.siguienteChorro();
         return q;

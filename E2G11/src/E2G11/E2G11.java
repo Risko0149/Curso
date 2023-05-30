@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package E2G11;
+package e2g11;
 
 import Entidades.Jugador;
 import Entidades.RevolverDeAgua;
@@ -19,7 +19,7 @@ public class E2G11 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+        
         Juego ruletaDeAgua = new Juego();
         
         RevolverDeAgua revolver = new RevolverDeAgua();
@@ -41,7 +41,5 @@ public class E2G11 {
         
         ruletaDeAgua.llenarJuego(jugadores, revolver);
         ruletaDeAgua.ronda();
-
-    }
-
+    }    
 }

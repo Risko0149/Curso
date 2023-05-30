@@ -15,12 +15,13 @@ public class RevolverDeAgua {
     private Integer posicionActual;
     private Integer posicionDeAgua;
     private Integer tambor;
+    
     private Random rnd = new Random();
 
     public void llenarRevolver() {
 
-        posicionActual = rnd.nextInt(tambor-1) + 1;
-        posicionDeAgua = rnd.nextInt(tambor-1) + 1;
+        posicionActual = rnd.nextInt(tambor - 1) + 1;
+        posicionDeAgua = rnd.nextInt(tambor - 1) + 1;
     }
 
     public Integer getTambor() {

@@ -9,5 +9,5 @@ package Enumeraciones;
  * @author Risko
  */
 public enum EstadoJugador {
-    mojado,seco,
+    mojado,seco;
 }
